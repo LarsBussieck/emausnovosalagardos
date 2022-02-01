@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+header {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 8px;
+    text-align: center;
+}
+
+#image img {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(8px);
+    z-index: 99;
+}
+
+footer ul, nav ul {
+    list-style: none;
+    margin: 0cm;
+    padding: 0cm;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer ul li a, nav ul li a {
+    padding: 16px;
+    font-weight: 600;
+}
+
+section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    box-sizing: border-box;
+    padding-top: 48px;
+    transform: translateY(-48px);
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 16spx;
+}
+
+.Social-icon {
+    color: gray;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {display: flex;}
+.content > img {
+ width: 100%; 
+ height: auto; 
+ max-height: 250px; /* height of the image */
+ margin: 8px;
+}
+
+.Social-icon:hover {
+    color: #333
+}
